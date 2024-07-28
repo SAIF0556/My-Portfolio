@@ -36,13 +36,18 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                I am a proficient Computer Science graduate skilled in C++, C,
-                JavaScript, and SQL.I have expertise in web development using
-                HTML, CSS, React.js, Redux, React Router, Tanstack Query,
-                Tailwind CSS, Node.js, Express, and MongoDB. I'm experienced
-                with tools like Git, GitHub, VSCode, Vercel, and Stripe, and
-                have a background in full-stack development, e-commerce website
-                creation, and research in Machine Learning and NLP.
+                I'm a tech virtuoso with a Computer Science degree, fluent in
+                the languages of machines - C++, C, JavaScript, and SQL. My
+                digital toolkit is packed with web wizardry: HTML, CSS,
+                React.js, Redux, React Router, Tanstack Query, and the
+                style-weaving magic of Tailwind CSS. On the backend, I'm a
+                Node.js ninja, wielding Express and taming MongoDB databases.
+                I'm no stranger to the collaborative realms of Git and GitHub,
+                and I craft digital experiences using VSCode, deploy with
+                Vercel, and handle transactions with Stripe. My journey spans
+                full-stack development, e-commerce empire building, and ventures
+                into the realms of Machine Learning and NLP. I don't just code;
+                I create digital symphonies.
               </p>
               <Carousel
                 responsive={responsive}

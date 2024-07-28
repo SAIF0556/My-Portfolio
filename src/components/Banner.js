@@ -70,24 +70,28 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Software Developer", "Web Developer" ]'
+                      data-rotate='[ "Full Stack Developer", "React Enthusiast" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    I'm a passionate Computer Science graduate from Jamia Millia
-                    Islamia (GPA: 9.1) with a strong foundation in programming
-                    languages and web development frameworks. I am constantly
-                    seeking opportunities to expand my knowledge and explore new
-                    technologies, including ventures into Machine Learning and
-                    Natural Language Processing. I bring my skills to life
-                    through personal projects, from building responsive web
-                    applications to tackling complex data structures, and I
-                    enjoy the process of creation.
+                    I'm a driven Computer Science graduate from JMI, New Delhi
+                    with expertise in
+                    <strong> JavaScript, React, and Node.js</strong>. My
+                    academic excellence is matched by my passion for creating
+                    innovative solutions, as demonstrated in my 5 personal
+                    projects ranging from responsive front-end web applications
+                    to full-stack websites with robust backend functionality.
                   </p>
-                  <button onClick={() => console.log('connect')}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                  <button
+                    onClick={() =>
+                      document
+                        .getElementById('connect')
+                        .scrollIntoView({ behavior: 'smooth' })
+                    }
+                  >
+                    Let's Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}

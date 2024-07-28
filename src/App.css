@@ -87,10 +87,16 @@ select:focus {
 
 p.success {
   color: green;
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
 }
 
 p.danger {
   color: red;
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
 }
 /************ Navbar Css ************/
 nav.navbar {
